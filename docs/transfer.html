@@ -21,15 +21,17 @@
 					<h3 class="sans">Welcome Back, <span class="username">Unknown</span></h3>
 					<h4 class="sans">Current Balance: <span class="currentBalance"></span></h4>
 				</div>
-			</div>
-			<div class="body balance-container">
+			<div class="body transfer-container">
+				<div class="form">
+					<form id="transfer-form">
+              <input id="amount" type="text" placeholder="Amount" class="sans" required/><br>
+              <input id="toPlayer" type="text" placeholder="To" class="sans" required/><br>
+              <button type="submit" id="submit" class="submit sans">Transfer</button>
+          </form>
+				</div>
 				<div class="centered">
-					<div class="number-display"><p class="sans">Current Balance: <span class="currentBalance"></span></p></div>
-                    <div class="number-display"><p class="sans">Credit limit: <span class="currentBalance"></span></p></div>
-					<a href="/html/withdraw.html" class="button sans btnWithdraw">Withdraw</a>
-					<a href="/html/deposit.html" class="button sans btnDeposit">Deposit</a>
-					<a href="/html/ui.html" class="button sans btnHome">Home</a>
-					<a href="/html/login.html" class="button sans btnClose">Close Menu</a>
+						<a href="ui.html" class="button sans btnHome">Home</a>
+						<a href="login.html" class="button sans btnClose">Close Menu</a>
 				</div>
 			</div>
 		</div>
